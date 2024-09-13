@@ -40,11 +40,12 @@ int main() {
 		cout << "Do you wish to evaluate another expression? " << endl;
 		cin >> answer;
 	};
-
+  
+  // add correct output if users enters N or n
   if (answer == 'N' || answer == 'n') {
     cout << "Program Finished." << endl;
   }
-  
+
   return 0; // return expected output value
 }
 
